@@ -9,7 +9,6 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
-import java.net.URL;
 import java.sql.Connection;
 
 public class Main extends Application {
@@ -18,7 +17,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../layout/sample.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../LayoutOther/sample.fxml"));
         primaryStage.setTitle("PRIHLÁSENIE");
         Parent root = loader.load();
         Scene scene = new Scene(root);

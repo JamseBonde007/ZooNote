@@ -40,7 +40,7 @@
                   </Label>
                </children>
             </AnchorPane>
-            <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="204.0" mnemonicParsing="false" onAction="#onHomeBtnClick" prefHeight="39.0" prefWidth="123.0" style="-fx-background-color: transparent;" styleClass="hover" stylesheets="@../style.css" text="DOMOV" textFill="WHITE">
+            <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="204.0" mnemonicParsing="false" onAction="#onHomeBtnClick" prefHeight="39.0" prefWidth="123.0" style="-fx-background-color: transparent;" stylesheets="@../style.css" text="DOMOV" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font></Button>
@@ -64,7 +64,7 @@
                <font>
                   <Font size="18.0" />
                </font></Button>
-            <Line endX="75.0" layoutX="104.0" layoutY="242.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" />
+            <Line endX="75.0" layoutX="104.0" layoutY="242.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" styleClass="line" />
             <Line endX="75.0" layoutX="104.0" layoutY="281.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" />
             <Line endX="75.0" layoutX="104.0" layoutY="320.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" />
             <Line endX="75.0" layoutX="104.0" layoutY="359.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" />

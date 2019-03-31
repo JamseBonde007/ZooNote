@@ -23,10 +23,6 @@ import java.util.ResourceBundle;
 
 
 public class AddUserController implements Initializable {
-
-
-
-
     ObservableList vyber= FXCollections.observableArrayList();
     @FXML
     private ChoiceBox<String> cb;
@@ -49,7 +45,7 @@ public class AddUserController implements Initializable {
 
     public void onBackBtnClick() throws IOException {
         Stage stage = (Stage) zaregistruj.getScene().getWindow();
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/Admin.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Admin.fxml"));
         stage.setTitle("Admin");
 
         Scene scene = new Scene(root);
@@ -63,10 +59,15 @@ public class AddUserController implements Initializable {
         data[5] = emailField.getText();
         data[1] = hesloField.getText();
         data[2] = cb.getValue();
-        register();
+        try {
+            register();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
-    private void register(){
+    private void register() throws SQLException {
         Connection connection = ConnectionClass.getConnection();
+        System.out.println("CONNECTION INICIATED");
         String insertQuery = "INSERT INTO pouzivatel(username,password,typ_konta,meno,priezvisko,email) VALUES(?,?,?,?,?,?)";
         if (checkFieldData()) {
             try {
@@ -78,6 +79,9 @@ public class AddUserController implements Initializable {
                 zle.setText("Registracia prebehla uspesne!");
             } catch (SQLException e) {
                 e.printStackTrace();
+            }finally {
+                connection.close();
+                System.out.println("CONNECTION CLOSED");
             }
         }
     }

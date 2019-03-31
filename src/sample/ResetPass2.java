@@ -7,7 +7,7 @@ import java.io.IOException;
 
 class ResetPass2 extends AnchorPane {
     ResetPass2() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("layout/ResetPass2.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("LayoutOther/ResetPass2.fxml"));
 
         fxmlLoader.setRoot(this);
 

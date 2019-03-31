@@ -2,77 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ccff8a-6cbc-408f-8ff0-92440e3c6e0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b574012-f962-48e4-b337-94728f9da6a1.corrupted.20190327-100826.reason.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b574012-f962-48e4-b337-94728f9da6a1.corrupted.20190327-100826.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Email.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Email1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Email1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LayoutOther/Home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/AddUser.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Admin.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Animals.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Attendant.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Finances.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Invoices.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Mechanic.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Repairs.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass33.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Users.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Uvod.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/AddUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/AddUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Animals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Finances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Finances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Invoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Invoices.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Repairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Repairs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/SendMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/activation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/imap.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/mail.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/mailapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/pop3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/Email/smtp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/connectivity/ConnectionClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/connectivity/sqlite-jdbc-3.27.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/ANIMAL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/FINANCES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/INVOICES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/MESSAGES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/REPAIRS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/USER.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/dalej.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/drop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/logout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/logoutBlack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/nazat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/panda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/start.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/uvod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/image/uvod2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/AddUser.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Admin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Animals.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Attendant.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Finances.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Home.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Invoices.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Mechanic.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Repairs.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass33.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Users.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/Uvod.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/AddUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Animals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Finances.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Invoices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Repairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/RequestUsersData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/ResetPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/ResetPass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/UvodController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/contentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/loginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/usersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/usersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/usersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/AddUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/AddUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Animals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Animals.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Attendant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Attendant.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Finances.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Finances.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Invoices.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Invoices.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Mechanic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Mechanic.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Repairs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Repairs.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/ResetPass.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/ResetPass2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass33.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/ResetPass33.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Uvod.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Uvod.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/AddUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AddUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Finances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Finances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Invoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Invoices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Repairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Repairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/RequestUsersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/RequestUsersData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ResetPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ResetPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ResetPass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ResetPass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/contentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/contentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/usersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/usersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoonote.db" beforeDir="false" afterPath="$PROJECT_DIR$/zoonote.db" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,27 +72,156 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1269458240">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="fxml" value="10" />
+          <entry key="java" value="11" />
+          <entry key="png" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="11" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="266" />
+          <entry key="java" value="3711" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="266" />
+          <entry key="JAVA" value="3711" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LayoutOther/Uvod.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LayoutOther/sample.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LayoutOther/Users.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="478">
+              <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/image/Image.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="1109" selection-start-line="1109" selection-end-line="1109" />
+            <state relative-caret-position="272">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="83" column="53" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initialize#0;class#contentController#0" />
+                <element signature="method#onHomeBtnClick#0;class#contentController#0" />
+                <element signature="method#onFinancesBtnClick#0;class#contentController#0" />
+                <element signature="method#onAnimalsBtnClick#0;class#contentController#0" />
+                <element signature="method#onInvoicesBtnClick#0;class#contentController#0" />
+                <element signature="method#onRepairsBtnClick#0;class#contentController#0" />
+                <element signature="method#onLogoutBtnClick#0;class#contentController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>close</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,12 +230,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/layout/Home.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/Users.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/Admin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/contentController.java" />
+        <option value="$PROJECT_DIR$/src/LayoutOther/Admin.fxml" />
+        <option value="$PROJECT_DIR$/src/LayoutOther/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/LayoutOther/Users.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/loginController.java" />
+        <option value="$PROJECT_DIR$/src/sample/usersController.java" />
+        <option value="$PROJECT_DIR$/src/sample/RequestUsersData.java" />
+        <option value="$PROJECT_DIR$/src/sample/AddUserController.java" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="255" />
-    <option name="y" value="5" />
+    <option name="x" value="576" />
+    <option name="y" value="211" />
     <option name="width" value="1100" />
     <option name="height" value="880" />
   </component>
@@ -125,7 +264,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,21 +286,31 @@
               <item name="zoonote" type="b2602c69:ProjectViewProjectNode" />
               <item name="zoonote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LayoutOther" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zoonote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zoonote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553849258864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553967594522" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\IdeaProjects\Bonobos\zoonoteX\zoonote\zoonote\src\LayoutOther" />
+      <recent name="C:\Users\Martin\IdeaProjects\Bonobos\zoonoteX\zoonote\zoonote\src\contentLayouts" />
       <recent name="C:\jj\zoonote\src\image" />
       <recent name="C:\jj\zoonote\src\sample" />
     </key>
@@ -210,60 +358,283 @@
       <option name="presentableId" value="Default" />
       <updated>1553848695705</updated>
       <workItem from="1553848698628" duration="558000" />
+      <workItem from="1553862528351" duration="2278000" />
+      <workItem from="1553881693900" duration="1956000" />
+      <workItem from="1553892911168" duration="2483000" />
+      <workItem from="1553926706490" duration="17700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558000" />
+    <option name="totallyTimeSpent" value="27000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2483731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2483731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/image/Image.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/image/Image.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1109" selection-start-line="1109" selection-end-line="1109" />
+        <state relative-caret-position="4403">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state relative-caret-position="153">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/ResetPass2.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ResetPass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Animals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Finances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Home.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Animals.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Invoices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Repairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/uvod2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/uvod.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Admin.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Uvod.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Users.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="83" column="53" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#contentController#0" />
+            <element signature="method#onHomeBtnClick#0;class#contentController#0" />
+            <element signature="method#onFinancesBtnClick#0;class#contentController#0" />
+            <element signature="method#onAnimalsBtnClick#0;class#contentController#0" />
+            <element signature="method#onInvoicesBtnClick#0;class#contentController#0" />
+            <element signature="method#onRepairsBtnClick#0;class#contentController#0" />
+            <element signature="method#onLogoutBtnClick#0;class#contentController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

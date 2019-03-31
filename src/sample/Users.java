@@ -7,7 +7,7 @@ import java.io.IOException;
 
  class Users extends AnchorPane {
      Users() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("layout/Users.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("LayoutOther/Users.fxml"));
 
         fxmlLoader.setRoot(this);
 

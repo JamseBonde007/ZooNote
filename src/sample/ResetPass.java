@@ -1,8 +1,5 @@
 package sample;
 
-import java.util.*;
-import javax.mail.*;
-import javax.mail.internet.*;
 import connectivity.ConnectionClass;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -153,7 +150,7 @@ public class ResetPass implements Initializable {
     private void spat(){
         try {
             Stage stage = (Stage) back.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/sample.fxml"));
+            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/sample.fxml"));
             stage.setTitle("Prihlásenie");
 
             Scene scene = new Scene(root);
@@ -170,7 +167,7 @@ public class ResetPass implements Initializable {
        if (kodRess.getText().equals(kodS)){
            try {
                Stage stage = (Stage) back.getScene().getWindow();
-               Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/ResetPass33.fxml"));
+               Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/ResetPass33.fxml"));
                stage.setTitle("Onovenie Hesla");
 
                Scene scene = new Scene(root);
@@ -215,7 +212,7 @@ public class ResetPass implements Initializable {
 
             try {
                 Stage stage = (Stage) back.getScene().getWindow();
-                Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/sample.fxml"));
+                Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/sample.fxml"));
                 stage.setTitle("Prihlasenie");
 
                 Scene scene = new Scene(root);

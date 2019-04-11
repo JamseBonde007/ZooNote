@@ -36,7 +36,9 @@ public class ResetPass implements Initializable {
 
 
     public boolean send(String mail ,String kod) {
+
         try {
+
             String host = "smtp.gmail.com";
             String user = "zoonote.ke@gmail.com";
             String pass = "Zoonote125";
@@ -97,6 +99,9 @@ public class ResetPass implements Initializable {
     @FXML
     private ChoiceBox<String> cb;*/
 
+
+   @FXML
+   private ImageView load;
    @FXML
    private ImageView back;
     @FXML
@@ -118,6 +123,7 @@ public class ResetPass implements Initializable {
 
    @FXML
    private void odosli() throws SQLException {
+
         String xLogin=loginRess.getText();
 
        String sqlEmail = "SELECT email FROM pouzivatel WHERE username = ?" ;
@@ -131,6 +137,7 @@ public class ResetPass implements Initializable {
        Email.next();
 
        if (!Email.isClosed() || !Email.isClosed()) {
+
            mail =Email.getString(1);
            connection.close();
            kod();
@@ -197,6 +204,9 @@ public class ResetPass implements Initializable {
             hesloRes2.setText("");
         } else {
 
+            String password ="";
+            password=Encryption.MD5(newHeslo);
+
             String sql = "UPDATE pouzivatel SET password = ? WHERE email = ?";
 
             Connection connection = ConnectionClass.getConnection();
@@ -204,7 +214,7 @@ public class ResetPass implements Initializable {
             try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
 
                 // set the corresponding param
-                pstmt.setString(1, newHeslo);
+                pstmt.setString(1, password);
                 pstmt.setString(2, mail);
                 // update
                 pstmt.executeUpdate();

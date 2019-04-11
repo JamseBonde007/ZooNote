@@ -30,8 +30,8 @@
                 <Font name="System Bold" size="22.0" />
             </font>
         </Label>
-      <PasswordField fx:id="hesloRes" layoutX="274.0" layoutY="127.0" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
-      <PasswordField fx:id="hesloRes2" layoutX="274.0" layoutY="221.0" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
+      <PasswordField fx:id="hesloRes" layoutX="274.0" layoutY="127.0" onAction="#nastav" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
+      <PasswordField fx:id="hesloRes2" layoutX="274.0" layoutY="221.0" onAction="#nastav" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
 
     </children>
 

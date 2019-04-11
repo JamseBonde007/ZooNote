@@ -4,6 +4,16 @@
 -fx-background-position:center;
 -fx-background-size:cover;
 }
+
+
+
+.dalej{
+-fx-background-color:transparent;
+-fx-background-image: url("image/dalej.png");
+-fx-background-repeat:stretch;
+-fx-background-position:center;
+-fx-background-size:cover;
+}
 .back{
     -fx-background-image: url("image/background.png");
     -fx-background-repeat:stretch;

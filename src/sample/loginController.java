@@ -1,11 +1,13 @@
 package sample;
 
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -31,12 +33,16 @@ public class loginController implements Initializable {
     @FXML
     private Label zle;
 
+
     public static String nameSurname;
+
+
 
     @FXML
     private void prihlasSa(){
         String login= meno.getText();
-        String pass = heslo.getText();
+        String pass = Encryption.MD5(heslo.getText());
+
 
         RequestUsersData request = new RequestUsersData();
         User user = request.getUsersData(login, pass);
@@ -112,7 +118,6 @@ public class loginController implements Initializable {
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
 
     }
 

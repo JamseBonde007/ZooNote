@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
+<BorderPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
    <center>
         <AnchorPane maxHeight="628.0" maxWidth="929.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="798.0" styleClass="back-login" stylesheets="@../style.css" BorderPane.alignment="CENTER">
             <children>
-                <TextField id="pane" fx:id="menoField" layoutX="129.0" layoutY="54.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+                <TextField id="pane" fx:id="menoField" layoutX="129.0" layoutY="54.0" onAction="#getFromFields" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></TextField>
@@ -43,27 +43,27 @@
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <TextField id="pane" fx:id="usernameField" layoutX="440.0" layoutY="54.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+            <TextField id="pane" fx:id="usernameField" layoutX="438.0" layoutY="150.0" onAction="#getFromFields" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </TextField>
-            <PasswordField fx:id="hesloField" layoutX="441.0" layoutY="150.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+            <PasswordField fx:id="hesloField" layoutX="438.0" layoutY="245.0" onAction="#getFromFields" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font size="20.0" />
                </font>
             </PasswordField>
-            <Label layoutX="443.0" layoutY="19.0" text="POUŽÍVATEĽSKÉ MENO">
+            <Label layoutX="441.0" layoutY="115.0" text="POUŽÍVATEĽSKÉ MENO">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <Label layoutX="442.0" layoutY="115.0" text="HESLO">
+            <Label layoutX="441.0" layoutY="210.0" text="HESLO">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <Label layoutX="443.0" layoutY="210.0" prefHeight="35.0" prefWidth="188.0" text="TYP KONTA">
+            <Label layoutX="441.0" layoutY="15.0" prefHeight="35.0" prefWidth="188.0" text="TYP KONTA">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
@@ -73,17 +73,17 @@
                   <Image url="@../image/nazat.png" />
                </image>
             </ImageView>
-            <TextField id="pane" fx:id="priezviskoField" layoutX="132.0" layoutY="150.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+            <TextField id="pane" fx:id="priezviskoField" layoutX="132.0" layoutY="150.0" onAction="#getFromFields" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </TextField>
-            <TextField id="pane" fx:id="emailField" layoutX="132.0" layoutY="245.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+            <TextField id="pane" fx:id="emailField" layoutX="132.0" layoutY="245.0" onAction="#getFromFields" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </TextField>
-            <ChoiceBox fx:id="cb" layoutX="440.0" layoutY="246.0" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
+            <ChoiceBox fx:id="cb" layoutX="438.0" layoutY="55.0" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
             </children>
         </AnchorPane>
    </center>

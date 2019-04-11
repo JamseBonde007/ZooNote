@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import weather.Weather;
 
 
 import java.sql.Connection;
@@ -29,6 +30,9 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+
+        Weather oobj = new Weather();
+        oobj.getWeather();
 
         connection = ConnectionClass.getConnection();
         if(connection == null) {

@@ -57,7 +57,7 @@ public class AddUserController implements Initializable {
         data[4] = priezviskoField.getText();
         data[0] = usernameField.getText();
         data[5] = emailField.getText();
-        data[1] = hesloField.getText();
+        data[1] = Encryption.MD5(hesloField.getText());
         data[2] = cb.getValue();
         try {
             register();

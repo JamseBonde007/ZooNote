@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="bac625f0-f2e0-4c6f-bfbb-bae1303b42ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sample/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/AddUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/layout/AddUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass33.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/layout/ResetPass33.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/layout/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/layout/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/AddUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/sample/AddUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/ResetPass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/sample/ResetPass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/sample/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/sample/loginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zoonote2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zoonote2/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/AddUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/AddUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/ResetPass.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass33.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/ResetPass33.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/AddUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AddUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ResetPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ResetPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoonote.db" beforeDir="false" afterPath="$PROJECT_DIR$/zoonote.db" afterDir="false" />
+=======
     <list default="true" id="94ccff8a-6cbc-408f-8ff0-92440e3c6e0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZooNote.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZooNote.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +39,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="FUSProjectUsageTrigger">
+    <session id="2035602635">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="fxml" value="13" />
+          <entry key="java" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="JAVA" value="30" />
+          <entry key="XML" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="399" />
+          <entry key="fxml" value="89" />
+          <entry key="java" value="2191" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="399" />
+          <entry key="JAVA" value="2191" />
+          <entry key="XML" value="89" />
+        </counts>
+      </usages-collector>
+    </session>
+=======
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -43,10 +114,17 @@
       </path>
     </expand>
     <select />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
         <entry file="file://$PROJECT_DIR$/src/LayoutOther/Users.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor" />
@@ -57,20 +135,37 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1887">
               <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/sample/Encryption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+=======
         <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+=======
         <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1088">
@@ -84,6 +179,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1360">
               <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +187,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,6 +208,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="53" />
+=======
         <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1190">
@@ -127,6 +237,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,19 +248,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="187">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+=======
             <state relative-caret-position="374">
               <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layout/ResetPass2.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layout/AddUser.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layout/ResetPass.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="20" selection-end-column="57" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layout/ResetPass33.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+=======
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
             </state>
           </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -166,6 +321,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/layout/Home.fxml" />
+<<<<<<< HEAD
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/sample/User.java" />
+        <option value="$PROJECT_DIR$/src/sample/usersController.java" />
+        <option value="$PROJECT_DIR$/src/layout/AddUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/contentController.java" />
+        <option value="$PROJECT_DIR$/src/sample/RequestUsersData.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/layout/ResetPass.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/ResetPass2.fxml" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/sample/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/sample/loginController.java" />
+        <option value="$PROJECT_DIR$/src/sample/AddUserController.java" />
+        <option value="$PROJECT_DIR$/src/layout/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ResetPass.java" />
+=======
         <option value="$PROJECT_DIR$/src/layout/Users.fxml" />
         <option value="$PROJECT_DIR$/src/layout/sample.fxml" />
         <option value="$PROJECT_DIR$/src/layout/Admin.fxml" />
@@ -179,6 +351,7 @@
         <option value="$PROJECT_DIR$/src/sample/RequestUsersData.java" />
         <option value="$PROJECT_DIR$/src/sample/AddUserController.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
       </list>
     </option>
   </component>
@@ -188,19 +361,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="1029" />
+    <option name="height" value="1014" />
+=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="575" />
     <option name="y" value="210" />
     <option name="width" value="1100" />
     <option name="height" value="880" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,14 +407,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554970205513" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vlakno" />
+    <property name="project.structure.last.edited" value="Project" />
+=======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554970716650" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/weather/java-json.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -306,17 +492,29 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2637584" />
+      <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.23489933" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15838926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+=======
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24787535" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,6 +538,19 @@
       <window_info anchor="right" id="Maven Projects" order="10" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2637584" />
+      <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.23489933" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010571" side_tool="true" weight="0.23489933" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -351,12 +562,30 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2483731" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32765958" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5276596" side_tool="true" weight="0.008724832" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Preview" order="8" sideWeight="0.47234043" weight="0.008528785" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Database" order="11" weight="0.019722814" />
+=======
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -372,6 +601,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Preview" order="9" weight="0.32995737" />
       <window_info anchor="right" id="Maven Projects" order="10" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +616,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/layout/Repairs.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/glass/ui/View.java" />
+    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass3.fxml" />
+    <entry file="jar://$PROJECT_DIR$/src/connectivity/sqlite-jdbc-3.27.2.jar!/org/sqlite/core/DB.class">
+=======
     <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
@@ -410,6 +651,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/src/LayoutOther/ResetPass2.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
@@ -425,6 +668,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
     <entry file="file://$PROJECT_DIR$/src/sample/Animals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -451,6 +695,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sample/ResetPass3.java" />
+    <entry file="file://$PROJECT_DIR$/src/layout/Admin.fxml">
+=======
     <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -480,6 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LayoutOther/Admin.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
       <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LayoutOther/Uvod.fxml">
@@ -496,8 +745,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="261">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+=======
         <state relative-caret-position="1887">
           <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
         </state>
       </provider>
     </entry>
@@ -517,6 +771,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="714">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+=======
         <state relative-caret-position="1360">
           <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
           <folding>
@@ -532,13 +832,29 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+=======
     <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initialize#0;class#contentController#0" />
@@ -552,16 +868,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="476">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="53" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sample/ResetPass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/AddUser.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass33.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass2.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+=======
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -573,6 +943,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+>>>>>>> 564bfdbdf218aadd2b00ec9729e24dcbb327da7b
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

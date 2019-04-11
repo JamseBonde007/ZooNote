@@ -5,10 +5,11 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import weather.Weather;
 
 
-import java.net.URL;
 import java.sql.Connection;
 
 public class Main extends Application {
@@ -17,10 +18,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../layout/sample.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../LayoutOther/sample.fxml"));
         primaryStage.setTitle("PRIHLÁSENIE");
         Parent root = loader.load();
         Scene scene = new Scene(root);
+        primaryStage.getIcons().add(new Image("image/panda.png"));
         primaryStage.setScene(scene);
         primaryStage.show();
         primaryStage.setResizable(false);
@@ -28,6 +30,9 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+
+        Weather oobj = new Weather();
+        oobj.getWeather();
 
         connection = ConnectionClass.getConnection();
         if(connection == null) {

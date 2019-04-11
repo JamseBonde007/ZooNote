@@ -52,7 +52,7 @@ public class loginController implements Initializable {
             if (user.getType().equals("admin")) {
                 try {
                     Stage stage = (Stage) meno.getScene().getWindow();
-                    Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/Admin.fxml"));
+                    Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Admin.fxml"));
                     stage.setTitle("ZooNote");
 
                     Scene scene = new Scene(root);
@@ -67,7 +67,7 @@ public class loginController implements Initializable {
             if (user.getType().equals("opravar")) {
                     try {
                         Stage stage = (Stage) prihlas.getScene().getWindow();
-                        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/Mechanic.fxml"));
+                        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Mechanic.fxml"));
                         stage.setTitle("ZooNote");
 
                         Scene scene = new Scene(root);
@@ -82,7 +82,7 @@ public class loginController implements Initializable {
                 if (user.getType().equals("osetrovatel")) {
                     try {
                         Stage stage = (Stage) meno.getScene().getWindow();
-                        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/Attendant.fxml"));
+                        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Attendant.fxml"));
                         stage.setTitle("ZooNote");
 
                         Scene scene = new Scene(root);
@@ -105,7 +105,7 @@ public class loginController implements Initializable {
     private void ZabudolPass(){
         try {
             Stage stage = (Stage) zabudolHeslo.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/ResetPass.fxml"));
+            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/ResetPass.fxml"));
             stage.setTitle("Obnovenie Hesla");
 
             Scene scene = new Scene(root);

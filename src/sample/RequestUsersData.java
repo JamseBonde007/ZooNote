@@ -13,12 +13,12 @@ import static sample.loginController.nameSurname;
 
 public class RequestUsersData {
 
-    private Connection connection = ConnectionClass.getConnection();
     PreparedStatement statement = null;
     private User user;
 
     public User getUsersData(String login,String pass) {
-
+        Connection connection = ConnectionClass.getConnection();
+        System.out.println("CONNECTION INICIATED");
         String sql = "SELECT * FROM pouzivatel WHERE username = ? AND password = ?";
 
         try{
@@ -46,6 +46,7 @@ public class RequestUsersData {
             if (connection != null) {
                 try {
                     connection.close();
+                    System.out.println("CONNECTION CLOSED");
                 } catch (SQLException ex) {
                     Logger.getLogger(RequestUsersData.class.getName()).log(Level.SEVERE, null, ex);
                 }

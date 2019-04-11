@@ -7,7 +7,7 @@ import java.io.IOException;
 
 class Home extends AnchorPane {
      Home() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("layout/Home.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("LayoutOther/Home.fxml"));
 
         fxmlLoader.setRoot(this);
 

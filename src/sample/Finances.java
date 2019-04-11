@@ -7,7 +7,7 @@ import java.io.IOException;
 
 class Finances extends AnchorPane {
     Finances() {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("layout/Finances.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("LayoutOther/Finances.fxml"));
 
         fxmlLoader.setRoot(this);
 

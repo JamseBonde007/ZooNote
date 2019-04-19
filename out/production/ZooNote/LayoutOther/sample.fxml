@@ -13,7 +13,7 @@
    <center>
         <AnchorPane maxHeight="628.0" maxWidth="929.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="798.0" styleClass="back-login" stylesheets="@../style.css" BorderPane.alignment="CENTER">
             <children>
-                <TextField id="pane" fx:id="meno" layoutX="273.0" layoutY="148.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+                <TextField id="pane" fx:id="meno" layoutX="273.0" layoutY="148.0" onAction="#prihlasSa" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></TextField>

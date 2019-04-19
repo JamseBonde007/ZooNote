@@ -31,7 +31,7 @@
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <ImageView fx:id="prihlas" fitHeight="46.0" fitWidth="56.0" layoutX="371.0" layoutY="318.0" onMouseClicked="#prihlasSa" pickOnBounds="true" preserveRatio="true" styleClass="imageBtn">
+            <ImageView fx:id="prihlas" fitHeight="46.0" fitWidth="56.0" layoutX="371.0" layoutY="318.0" onMouseClicked="#prihlasSa" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../image/dalej.png" />
                </image>

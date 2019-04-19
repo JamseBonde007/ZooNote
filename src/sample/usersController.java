@@ -8,10 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
@@ -25,6 +22,16 @@ import java.util.ResourceBundle;
 public class usersController implements Initializable {
 
     @FXML
+    private TextField nameUpdate;
+    @FXML
+    private TextField surnameUpdate;
+    @FXML
+    private TextField usernameUpdate;
+    @FXML
+    private TextField emailUpdate;
+    @FXML
+    private TextField typeUpdate;
+    @FXML
     private TableView<User> usersTable;
     @FXML
     private TableColumn<User, String> nameColumn;
@@ -37,8 +44,12 @@ public class usersController implements Initializable {
     @FXML
     private TableColumn<User, String> typeColumn;
     @FXML
-
     private ImageView deleteBtn;
+    @FXML
+    private ImageView updateBtn;
+    @FXML
+    private Label errMessage;
+
     private ResultSet data, resultSetSize;
     private User userArray[];
     private String lastSelectedUsername = "",selectedUsername;
@@ -69,7 +80,7 @@ public class usersController implements Initializable {
                 e.printStackTrace();
             }
         }
-        deleteBtn.setVisible(false);
+        setVisible(false);
     }
 
     private void insertIntoTable() {
@@ -112,13 +123,16 @@ public class usersController implements Initializable {
             lastSelectedUsername = selectedUsername;
             selectedUsername = usersTable.getSelectionModel().getSelectedItem().getUsername();
             selectedItem = usersTable.getSelectionModel().getSelectedItem();
-            deleteBtn.setVisible(true);
+
+            setVisible(true);
+
         } catch (NullPointerException e) {
-            deleteBtn.setVisible(false);
+            setVisible(false);
             selectedUsername = "";
         }
         if (selectedUsername.equals(lastSelectedUsername)) {
-            deleteBtn.setVisible(false);
+            setVisible(false);
+
             lastSelectedUsername = selectedUsername;
             selectedUsername = "";
             usersTable.getSelectionModel().clearSelection();
@@ -148,6 +162,60 @@ public class usersController implements Initializable {
             System.out.println("CONNECTION CLOSED");
         }catch (SQLException e){
             e.printStackTrace();
+        }
+    }
+    public void updateUser() throws SQLException {
+        Connection connection = ConnectionClass.getConnection();
+        System.out.println("CONNECTION INICIATED");
+        if (usersTable.getSelectionModel().getSelectedItem().getName().equals(nameUpdate.getText())&&
+                usersTable.getSelectionModel().getSelectedItem().getSurname().equals(surnameUpdate.getText())&&
+                usersTable.getSelectionModel().getSelectedItem().getUsername().equals(usernameUpdate.getText())&&
+                usersTable.getSelectionModel().getSelectedItem().getEmail().equals(emailUpdate.getText())&&
+                usersTable.getSelectionModel().getSelectedItem().getType().equals(typeUpdate.getText())){
+            errMessage.setText("Nic ste nezmenili!");
+        }else{
+            String updateQuery = "UPDATE pouzivatel SET meno = ?, priezvisko = ?, username = ?, email = ?,typ_konta = ? WHERE username = ?";
+            PreparedStatement preparedStatementToUpdate = connection.prepareStatement(updateQuery);
+            preparedStatementToUpdate.setString(1,nameUpdate.getText());
+            System.out.println(nameUpdate.getText());
+            preparedStatementToUpdate.setString(2,surnameUpdate.getText());
+            System.out.println(surnameUpdate.getText());
+            preparedStatementToUpdate.setString(3,usernameUpdate.getText());
+            preparedStatementToUpdate.setString(4,emailUpdate.getText());
+            preparedStatementToUpdate.setString(5,typeUpdate.getText());
+            preparedStatementToUpdate.setString(6,usersTable.getSelectionModel().getSelectedItem().getName());
+            preparedStatementToUpdate.executeUpdate();
+
+            usersTable.getSelectionModel().getSelectedItem().setName(nameUpdate.getText());
+            usersTable.getSelectionModel().getSelectedItem().setSurname(surnameUpdate.getText());
+            usersTable.getSelectionModel().getSelectedItem().setUsername(usernameUpdate.getText());
+            usersTable.getSelectionModel().getSelectedItem().setEmail(emailUpdate.getText());
+            usersTable.getSelectionModel().getSelectedItem().setType(typeUpdate.getText());
+            usersTable.refresh();
+            System.out.println("UPDATED SUCCESFULLY");
+        }
+        connection.close();
+        System.out.println("CONNECTION CLOSED");
+    }
+    public void setVisible(boolean bool){
+        deleteBtn.setVisible(bool);
+        updateBtn.setVisible(bool);
+
+        nameUpdate.setVisible(bool);
+        surnameUpdate.setVisible(bool);
+        usernameUpdate.setVisible(bool);
+        emailUpdate.setVisible(bool);
+        typeUpdate.setVisible(bool);
+
+        errMessage.setText("");
+
+        try {
+            nameUpdate.setText(usersTable.getSelectionModel().getSelectedItem().getName());
+            surnameUpdate.setText(usersTable.getSelectionModel().getSelectedItem().getSurname());
+            usernameUpdate.setText(usersTable.getSelectionModel().getSelectedItem().getUsername());
+            emailUpdate.setText(usersTable.getSelectionModel().getSelectedItem().getEmail());
+            typeUpdate.setText(usersTable.getSelectionModel().getSelectedItem().getType());
+        }catch (NullPointerException e){
         }
     }
 }

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<fx:root prefHeight="562.0" prefWidth="800.0" styleClass="back" stylesheets="@../style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.usersController">
+<fx:root prefHeight="562.0" prefWidth="800.0" styleClass="back" stylesheets="@../style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.usersController">
    <children>
-      <TableView fx:id="usersTable" layoutX="66.0" layoutY="81.0" onMouseClicked="#showFromTable" prefHeight="422.0" prefWidth="681.0" style="-fx-background-color: transparent;" styleClass="table" stylesheets="@../style.css">
+      <TableView fx:id="usersTable" layoutX="66.0" layoutY="81.0" onMouseClicked="#showFromTable" prefHeight="392.0" prefWidth="681.0" style="-fx-background-color: transparent;" styleClass="table" stylesheets="@../style.css">
         <columns>
             <TableColumn fx:id="nameColumn" prefWidth="84.800048828125" resizable="false" text="MENO" />
           <TableColumn fx:id="surnameColumn" prefWidth="127.2000732421875" resizable="false" text="PRIEZVISKO" />
@@ -27,5 +29,16 @@
             <Image url="@../image/minus.png" />
          </image>
       </ImageView>
+      <TextField fx:id="nameUpdate" layoutX="53.0" layoutY="502.0" prefHeight="25.0" prefWidth="117.0" styleClass="text" />
+      <TextField fx:id="surnameUpdate" layoutX="196.0" layoutY="502.0" prefHeight="25.0" prefWidth="127.0" styleClass="text" />
+      <TextField fx:id="usernameUpdate" layoutX="337.0" layoutY="502.0" prefHeight="25.0" prefWidth="127.0" styleClass="text" />
+      <TextField fx:id="emailUpdate" layoutX="482.0" layoutY="502.0" prefHeight="25.0" prefWidth="127.0" styleClass="text" />
+      <TextField fx:id="typeUpdate" layoutX="625.0" layoutY="502.0" prefHeight="25.0" prefWidth="127.0" styleClass="text" />
+      <ImageView fx:id="updateBtn" fitHeight="48.0" fitWidth="54.0" layoutX="553.0" layoutY="12.0" onMouseClicked="#updateUser" pickOnBounds="true" preserveRatio="true" styleClass=".g">
+         <image>
+            <Image url="@../image/updateBtnImg.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="errMessage" alignment="CENTER" layoutX="61.0" layoutY="540.0" prefHeight="17.0" prefWidth="691.0" textFill="RED" />
    </children>
 </fx:root>

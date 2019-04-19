@@ -2,67 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ccff8a-6cbc-408f-8ff0-92440e3c6e0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LayoutOther/Home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/AddUser.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Admin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Animals.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Attendant.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Finances.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Home.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Invoices.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Mechanic.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Repairs.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass33.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Users.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Uvod.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/AddUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/AddUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Animals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Finances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Finances.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Invoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Invoices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Repairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Repairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/LayoutOther/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/LayoutOther/Users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/LayoutOther/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/LayoutOther/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/usersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/usersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/AddUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/AddUser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Animals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Animals.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Attendant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Attendant.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Finances.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Finances.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Home.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Invoices.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Invoices.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Mechanic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Mechanic.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Repairs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Repairs.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/ResetPass.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/ResetPass2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass33.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/ResetPass33.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Users.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Uvod.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Uvod.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AddUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AddUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Finances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Finances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Invoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Invoices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Repairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Repairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/RequestUsersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/RequestUsersData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ResetPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ResetPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ResetPass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ResetPass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/contentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/contentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LayoutOther/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/Users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LayoutOther/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LayoutOther/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/usersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/usersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoonote.db" beforeDir="false" afterPath="$PROJECT_DIR$/zoonote.db" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -93,13 +39,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="266" />
-          <entry key="java" value="3711" />
+          <entry key="java" value="5005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="266" />
-          <entry key="JAVA" value="3711" />
+          <entry key="JAVA" value="5005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -123,7 +69,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LayoutOther/sample.fxml">
+        <entry file="file://$PROJECT_DIR$/src/LayoutOther/Home.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor" />
         </entry>
@@ -131,41 +77,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LayoutOther/Users.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="83" column="53" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,10 +97,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
+        <entry file="file://$PROJECT_DIR$/src/LayoutOther/AddUser.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="70" column="126" selection-start-line="70" selection-start-column="126" selection-end-line="70" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            <state relative-caret-position="442">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="254">
+              <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initialize#0;class#contentController#0" />
@@ -204,14 +146,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="34">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -238,11 +189,11 @@
         <option value="$PROJECT_DIR$/src/LayoutOther/Admin.fxml" />
         <option value="$PROJECT_DIR$/src/LayoutOther/sample.fxml" />
         <option value="$PROJECT_DIR$/src/style.css" />
-        <option value="$PROJECT_DIR$/src/LayoutOther/Users.fxml" />
         <option value="$PROJECT_DIR$/src/sample/loginController.java" />
-        <option value="$PROJECT_DIR$/src/sample/usersController.java" />
         <option value="$PROJECT_DIR$/src/sample/RequestUsersData.java" />
         <option value="$PROJECT_DIR$/src/sample/AddUserController.java" />
+        <option value="$PROJECT_DIR$/src/LayoutOther/Users.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/usersController.java" />
       </list>
     </option>
   </component>
@@ -305,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553967594522" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555678187643" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -366,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27000000" />
+    <option name="totallyTimeSpent" value="32819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -382,7 +333,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2483731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2483731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,21 +517,10 @@
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Users.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -596,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
+        <state relative-caret-position="1360">
           <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -604,17 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="83" column="53" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="254">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initialize#0;class#contentController#0" />
@@ -630,8 +563,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="34">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LayoutOther/Users.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AddUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

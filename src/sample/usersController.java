@@ -174,7 +174,7 @@ public class usersController implements Initializable {
                 usersTable.getSelectionModel().getSelectedItem().getType().equals(typeUpdate.getText())){
             errMessage.setText("Nic ste nezmenili!");
         }else{
-            String updateQuery = "UPDATE pouzivatel SET meno = ?, priezvisko = ?, username = ?, email = ?,typ_konta = ? WHERE username = ?";
+            String updateQuery = "UPDATE pouzivatel SET meno = ?, priezvisko = ?, username = ?, email = ?,typ_konta = ? WHERE username IS ?";
             PreparedStatement preparedStatementToUpdate = connection.prepareStatement(updateQuery);
             preparedStatementToUpdate.setString(1,nameUpdate.getText());
             System.out.println(nameUpdate.getText());
@@ -183,7 +183,7 @@ public class usersController implements Initializable {
             preparedStatementToUpdate.setString(3,usernameUpdate.getText());
             preparedStatementToUpdate.setString(4,emailUpdate.getText());
             preparedStatementToUpdate.setString(5,typeUpdate.getText());
-            preparedStatementToUpdate.setString(6,usersTable.getSelectionModel().getSelectedItem().getName());
+            preparedStatementToUpdate.setString(6,usersTable.getSelectionModel().getSelectedItem().getUsername());
             preparedStatementToUpdate.executeUpdate();
 
             usersTable.getSelectionModel().getSelectedItem().setName(nameUpdate.getText());

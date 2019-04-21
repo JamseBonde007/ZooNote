@@ -31,16 +31,11 @@ public class Main extends Application {
 
     public static void main(String[] args) {
 
-        Weather oobj = new Weather();
-        oobj.getWeather();
-
         connection = ConnectionClass.getConnection();
         if(connection == null) {
             System.exit(1);
         }
         launch(args);
-
-        //URL icon = Main.class.getResource();
 
 
     }

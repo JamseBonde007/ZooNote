@@ -11,6 +11,8 @@ class Home extends AnchorPane {
 
         fxmlLoader.setRoot(this);
 
+
+
         try {
             fxmlLoader.load();
         } catch (IOException e) {

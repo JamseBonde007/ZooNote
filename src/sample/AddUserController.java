@@ -91,7 +91,7 @@ public class AddUserController implements Initializable {
             return false;
         }
         else if (!data[5].contains("@")){
-            zle.setText("Zadali ste naplatny e-mail!");
+            zle.setText("Zadali ste neplatny email!");
             return false;
         }
         return true;

@@ -5,7 +5,12 @@
 -fx-background-size:cover;
 }
 
-
+.home{
+-fx-background-image: url("image/background-cisty.png");
+-fx-background-repeat:stretch;
+-fx-background-position:center;
+-fx-background-size:cover;
+}
 
 .dalej{
 -fx-background-color:transparent;

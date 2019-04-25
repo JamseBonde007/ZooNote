@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="sqlite-jdbc-3.27.21">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/connectivity/sqlite-jdbc-3.27.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/connectivity/sqlite-jdbc-3.27.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

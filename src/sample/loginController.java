@@ -35,6 +35,7 @@ public class loginController implements Initializable {
 
 
     public static String nameSurname;
+    public static User curentlyLoggedUser;
 
 
 
@@ -45,11 +46,10 @@ public class loginController implements Initializable {
 
 
         RequestUsersData request = new RequestUsersData();
-        User user = request.getUsersData(login, pass);
-        System.out.println(login);
+        curentlyLoggedUser = request.getUsersData(login, pass);
 
-        if (user != null) {
-            if (user.getType().equals("admin")) {
+        if (curentlyLoggedUser != null) {
+            if (curentlyLoggedUser.getType().equals("admin")) {
                 try {
                     Stage stage = (Stage) meno.getScene().getWindow();
                     Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Admin.fxml"));
@@ -64,7 +64,7 @@ public class loginController implements Initializable {
                 }
             }
 
-            if (user.getType().equals("opravar")) {
+            if (curentlyLoggedUser.getType().equals("opravar")) {
                     try {
                         Stage stage = (Stage) prihlas.getScene().getWindow();
                         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Mechanic.fxml"));
@@ -75,11 +75,11 @@ public class loginController implements Initializable {
                         stage.show();
                     } catch (IOException e) {
                         e.printStackTrace();
-                        System.out.println(user.getType());
+                        System.out.println(curentlyLoggedUser.getType());
                         System.out.println("Nepodarilo sa nacitat RepairsLayout");
                     }
                 }
-                if (user.getType().equals("osetrovatel")) {
+                if (curentlyLoggedUser.getType().equals("osetrovatel")) {
                     try {
                         Stage stage = (Stage) meno.getScene().getWindow();
                         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LayoutOther/Attendant.fxml"));

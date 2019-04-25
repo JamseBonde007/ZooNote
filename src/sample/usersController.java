@@ -197,7 +197,7 @@ public class usersController implements Initializable {
         connection.close();
         System.out.println("CONNECTION CLOSED");
     }
-    public void setVisible(boolean bool){
+    private void setVisible(boolean bool){
         deleteBtn.setVisible(bool);
         updateBtn.setVisible(bool);
 

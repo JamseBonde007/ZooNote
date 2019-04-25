@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Email">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/Email/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/Email/smtp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/Email/pop3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/Email/imap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/Email/mailapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/ZooNote/Email/activation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

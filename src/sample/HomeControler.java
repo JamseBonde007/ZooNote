@@ -40,7 +40,11 @@ private ImageView icon;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         initClock();
-
+        try {
+            odosli();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
 
         Weather pocasie =new Weather();
@@ -132,36 +136,41 @@ private ImageView icon;
         clock.play();
     }
 
-/*
-    private void odosli() throws SQLException {
-        String pattern = "dd.MM.yyyy";
 
-        DateFormat df = new SimpleDateFormat(pattern);
+    private void odosli() throws SQLException {
+        String pattern = "dd";
+        String pattern1 = "MM";
+
+        DateFormat dd = new SimpleDateFormat(pattern);
+        DateFormat mm = new SimpleDateFormat(pattern1);
 
         Date today = Calendar.getInstance().getTime();
+        Date today1 = Calendar.getInstance().getTime();
 
-        String todayString = df.format(today);
+        String todayString = dd.format(today);
+        String todayString1 = mm.format(today1);
 
 
-        System.out.println(todayString);
 
-        String xLogin="ajoj";
-
-        String sqlEmail = "SELECT meno FROM zviera WHERE datum_narodenia = ?" ;
+        String sqlMeno = "SELECT meno , datum_narodenia FROM zviera";
 
 
         Connection connection = ConnectionClass.getConnection();
 
-        PreparedStatement statementForEmail = connection.prepareStatement(sqlEmail);
-        statementForEmail.setString(1, xLogin);
-        ResultSet Meno = statementForEmail.executeQuery();
+        PreparedStatement statementForMeno = connection.prepareStatement(sqlMeno);
+
+        ResultSet Meno = statementForMeno.executeQuery();
         Meno.next();
 
         if (!Meno.isClosed() || !Meno.isClosed()) {
+           for(int i=0;i<3;i++){
+               System.out.println(Meno.getString(1));
+               System.out.println(Meno.getString(2));
 
+           }
 
             connection.close();
         }
-    }*/
+    }
 
     }

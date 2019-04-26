@@ -1,47 +1,49 @@
 package sample;
 
+import bank_account.BankAccount;
 import connectivity.ConnectionClass;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 
+import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static sample.loginController.nameSurname;
 
-public class RequestUsersData {
 
+public class HomeController implements Initializable {
+
+    @FXML
+    private Label balance;
+
+    private String money;
     private PreparedStatement statement = null;
-    private User user;
+    private BankAccount acc;
 
-    public User getUsersData(String login,String pass) {
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
         Connection connection = ConnectionClass.getConnection();
         System.out.println("CONNECTION INICIATED");
-        String sql = "SELECT * FROM pouzivatel WHERE username = ? AND password = ?";
+        String sql = "SELECT stav FROM bankovy_ucet WHERE id IS 1";
 
         try{
-        statement = connection.prepareStatement(sql);
-        statement.setString(1, login);
-        statement.setString(2, pass);
-        ResultSet setOfData = statement.executeQuery();
+            statement = connection.prepareStatement(sql);
+            ResultSet setOfData = statement.executeQuery();
 
-        while (setOfData.next()){
-            user = new User();
-            user.setUsername(setOfData.getString("username"));
-            user.setPassword(setOfData.getString("password"));
-            user.setType(setOfData.getString("typ_konta"));
-            user.setName(setOfData.getString("meno"));
-            user.setSurname(setOfData.getString("priezvisko"));
-        }
-        if (user !=null) {
-            nameSurname = user.getName() + " " + user.getSurname(); //opravit
-        }
-        return user;
-    }catch (SQLException ex) {
+            acc = new BankAccount();
+            //acc.setId(setOfData.getInt("id"));
+            acc.setStav(setOfData.getDouble("stav"));
+
+        }catch (SQLException ex) {
             Logger.getLogger(RequestUsersData.class.getName()).log(Level.SEVERE, null, ex);
-            return null;
         } finally {
             if (connection != null) {
                 try {
@@ -59,5 +61,11 @@ public class RequestUsersData {
                 }
             }
         }
+
+        System.out.println(acc.getStav());
+        money = String.valueOf(acc.getStav());
+
+        balance.setText(money + "€");
+
     }
 }

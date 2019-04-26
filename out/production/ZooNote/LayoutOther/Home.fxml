@@ -7,7 +7,11 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
+<fx:root prefHeight="562.0" prefWidth="800.0" style="-fx-background-image: url(&quot;image/uvod2.png&quot;); -fx-background-size: cover;" styleClass="back" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+=======
 <fx:root prefHeight="562.0" prefWidth="800.0" styleClass="home" stylesheets="@../style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeControler">
+>>>>>>> 37f5eec53f87ea84de9bbb2fa584774971130db0
    <children>
       <Label layoutX="626.0" layoutY="64.0" prefHeight="17.0" prefWidth="119.0" />
       <Label fx:id="nameDay" layoutX="626.0" layoutY="44.0" prefHeight="27.0" prefWidth="136.0" text="MENO">
@@ -26,6 +30,9 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+<<<<<<< HEAD
+      <Label fx:id="balance" layoutX="88.0" layoutY="44.0" prefHeight="27.0" prefWidth="136.0" text="E" textAlignment="CENTER">
+=======
             <Label fx:id="den" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="424.0" prefHeight="46.0" prefWidth="136.0" text="pondelok">
                <font>
                   <Font name="System Bold" size="28.0" />
@@ -48,18 +55,27 @@
          </image>
       </ImageView>
       <Label layoutX="76.0" layoutY="44.0" text="20000E">
+>>>>>>> 37f5eec53f87ea84de9bbb2fa584774971130db0
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
+<<<<<<< HEAD
+      <Line endX="100.0" layoutX="148.0" layoutY="83.0" startX="-100.0" />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="91.0" prefHeight="20.0" prefWidth="106.0" text="STAV">
+=======
       <Line endX="100.0" layoutX="124.0" layoutY="84.0" startX="-100.0" />
       <Line endX="100.0" layoutX="124.0" layoutY="469.0" startX="-100.0" />
       <Label layoutX="71.0" layoutY="91.0" prefHeight="27.0" prefWidth="106.0" text="STAV ÚČTU">
+>>>>>>> 37f5eec53f87ea84de9bbb2fa584774971130db0
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 37f5eec53f87ea84de9bbb2fa584774971130db0
    </children>
 
 </fx:root>

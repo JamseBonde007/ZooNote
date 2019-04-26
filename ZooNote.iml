@@ -7,6 +7,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+    <orderEntry type="library" name="Email1" level="project" />
+    <orderEntry type="library" name="Email" level="project" />
+    <orderEntry type="library" name="java-json1" level="project" />
+    <orderEntry type="library" name="java-json" level="project" />
+=======
     <orderEntry type="library" name="java-json1" level="project" />
     <orderEntry type="library" name="Email1" level="project" />
     <orderEntry type="library" name="Email" level="project" />
@@ -22,6 +28,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+>>>>>>> 37f5eec53f87ea84de9bbb2fa584774971130db0
     <orderEntry type="module-library">
       <library>
         <CLASSES>

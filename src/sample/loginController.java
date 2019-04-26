@@ -34,8 +34,12 @@ public class loginController implements Initializable {
     private Label zle;
 
 
+<<<<<<< HEAD
+    static String nameSurname;
+=======
     public static String nameSurname;
     public static User curentlyLoggedUser;
+>>>>>>> 37f5eec53f87ea84de9bbb2fa584774971130db0
 
 
 
